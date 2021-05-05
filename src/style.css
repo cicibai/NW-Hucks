@@ -1,0 +1,134 @@
+
+.button {
+    background-color: #8d9bd6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #bfedff;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(168, 89, 221, 0.19);
+}
+
+body {
+    background-image: url("invertednwHucksBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1 {
+    margin: 10px;
+    font-family: "Merriweather", serif;
+}
+h2 {
+    margin: 10px;
+    font-family: "Merriweather", serif;
+}
+h3 {
+    margin: 10px;
+}
+h4 {
+    margin: 10px;
+}
+h5 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+button {
+}
+input {
+    margin-left: 10px;
+}
+
+/* https://dev.to/asaaki/sticky-navigation-bar-without-javascript-4d1p */
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 0;
+    padding: 20px;
+  }
+
+#navbar > li > a {
+    transition: all 0.3s ease;
+    color: rgb(250, 212, 212);
+    text-decoration: none;
+}
+
+#navbar > li:hover {
+    background-color: rgb(32, 50, 90);
+}
+
+#navbar > li {
+    float: right;
+    padding: 16px;
+    transition: all 0.3s ease;
+    background-color: rgb(66, 92, 53);
+    border-radius: 8px;
+    list-style-type: none;
+    margin-right: 3%;
+}
+
+#nwtitle {
+    padding: 40px;
+}
+
+#nwtitle > h1 {
+    font-size: 60px;
+}
+
+#nwtitle > h2 {
+    font-size: 35px;
+}
+
+#unsubscribe {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.indexmain {
+    padding: 20px;
+    margin-left: 20px;
+    color:rgb(247, 155, 155);
+    background-color: rgb(66, 92, 53);
+    border-radius: 16px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.queryDiv {
+    background-color: rgba(219, 233, 241, 0.75);
+    border-radius: 16px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.resetDiv {
+    background-color: rgba(240, 145, 184, 0.8);
+    border-radius: 16px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
